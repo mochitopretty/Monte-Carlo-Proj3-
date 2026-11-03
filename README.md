@@ -4,7 +4,7 @@ Síntesis de población estelar one-zone con evolución química (closed box e i
  
 ```mermaid
 flowchart TD
-    A[params.py: parámetros y semilla] --> B[Muestrear M_init desde la IMF de Kroupa<br/>transformación inversa por segmentos]
+    A[Parámetros y semilla] --> B[Muestrear M_init desde la IMF de Kroupa<br/>transformación inversa por segmentos]
     A --> C[Muestrear t_birth ~ U 0, T_MW]
     B --> D[t_age = T_MW - t_birth<br/>t_MS = 10 Gyr M^-2.5]
     C --> D
